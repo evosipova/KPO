@@ -62,7 +62,7 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        //Создаем шруппу студентов.
+        //Создаем группу студентов.
         for (int number = 0; number < random.nextInt(10); number++) {
             students.add(new Student("Name " + number, "Surname " + number, 0, true));
         }
